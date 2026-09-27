@@ -120,7 +120,7 @@
 &kp JP_QUOTE      &kp JP_DQUOTE  &kp EXCL      &trans           &trans                          &kp JP_TILDE   &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_PIPE  &kp PERCENT
 &kp JP_AMPERSAND  &kp HASH       &kp DOLLAR    &kp RIGHT_ARROW  &trans            &kp JP_CARET  &kp JP_COLON   &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_YEN   &trans
 &kp LEFT_SHIFT    &trans         &kp JP_CARET  &trans           &trans  &trans    &trans        &kp SEMICOLON  &kp JP_LBRACE    &kp JP_RBRACE    &trans       &trans
-&trans            &trans         &trans        &trans           &trans  &trans    &trans        &trans                                                        &trans
+&trans            &trans         &trans        &trans           &trans  &trans    &kp TAB       &kp ESCAPE                                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -157,6 +157,15 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
         };
     };
 };
